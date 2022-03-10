@@ -1,0 +1,38 @@
+div {
+    display: grid;
+    grid-template-areas: 
+        "title title date"
+        "image image tags";
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: grey;
+
+    .title {
+        grid-area: title;
+        background-color: red;
+    }
+
+    .image {
+        grid-area: image;
+        background-color: blue;
+    }
+
+    .date {
+        grid-area: date;
+        display: flex;
+        justify-content: right;
+    }
+
+    .tags {
+        grid-area: tags;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+    }
+
+}

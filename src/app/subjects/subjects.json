@@ -1,0 +1,25 @@
+{
+    "tags": [
+        {
+            "name": "arts",
+            "logo": "logo"
+        }
+    ],
+    "posts": [
+        {
+            "title": "Test",
+            "date": "10/02/2022",
+            "tag": [ "arts" ],
+            "content": [
+                { 
+                    "type": "text",
+                    "content": "bablab"
+                },
+                { 
+                    "type": "image",
+                    "content": "bablab"
+                }
+            ]
+        }
+    ]
+}

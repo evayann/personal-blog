@@ -1,0 +1,21 @@
+@import "../../styles/responsives";
+
+section {
+  width: 100%;
+
+  .news {
+    display: grid;
+    grid-template:
+      "a b c" 1fr
+      "d e f" 1fr;
+
+    @include mobile {
+      grid-template:
+        "a b" 1fr
+        "c d" 1fr
+        "e f" 1fr;
+    }
+
+    grid-gap: 6px;
+  }
+}
